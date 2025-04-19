@@ -1,0 +1,33 @@
+<!-- Recreate the given form: -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratice-09</title>
+</head>
+<body>
+    <form action="/action">
+        <h2>Registration Form</h2>
+        <div>
+            <input type="text" name="user_FN" id="firstname" placeholder="First Name">
+            <input type="text" name="user_LN" id="lastname" placeholder="Last Name">
+        </div>
+        <div>
+            <label for="gender">Please select your gender: </label>
+            <select name="gender" id="gender">
+                <option value="m">Male</option>
+                <option value="f">Female</option>
+                <option value="o">Other</option>
+            </select>
+        </div>
+        <div>
+            Do you agree to all the terms of service? 
+            <input type="checkbox" name="terms" id="terms" checked>
+            <label for="terms">Yes, I agree</label>
+        </div>
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>

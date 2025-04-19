@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question-02</title>
+</head>
+<body>
+    <h2>Random Form</h2>
+    <form action="/action">
+        <div>
+            <label for="name">Nme :</label>
+            <input type="text" name="name" id="name" placeholder="Enter fullname">
+        </div>
+        <div>
+            <label for="gender">Sex :</label>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label>
+        </div>
+        <div>
+            <label for="country">Country :</label>
+            <select name="coumtry" id="country">
+                <option value="">select the country</option>
+                <option value="bharat">Bharat</option>
+                <option value="usa">USA</option>
+                <option value="use">USE</option>
+                <option value="germany">Germany</option>
+                <option value="japan">Japan</option>
+                <option value="RandomConutry">Some random country</option>
+            </select>
+        </div>
+        <div>
+            <label for="Message">Message :</label>
+            <br>
+            <textarea name="Message" id="message" rows="5" cols="35"></textarea>
+        </div>
+        <div>
+            <input type="checkbox" name="subscribe" id="subscribe">
+            <label for="subscribe">Subscribe?</label>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
